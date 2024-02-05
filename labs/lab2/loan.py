@@ -1,0 +1,6 @@
+loanamount = float(input("enter your loan amount that you want:"))
+annualinterest= float(input("enter a annual interest rate:"))
+loanduration = float(input("how long do you want to loan for in months?:"))
+month = (annualinterest/12)
+payment = (month * loanamount)/1 - ((1 + month)**-loanduration)
+print("your monthly payment is:", payment)

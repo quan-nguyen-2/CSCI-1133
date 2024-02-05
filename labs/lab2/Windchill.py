@@ -1,0 +1,8 @@
+fahrenheit = input("please enter degrees in fahrenheit:")
+wind = input("please enter you wind velocity in miles per hour:")
+float(fahrenheit)
+float(wind)
+f = float(fahrenheit)
+w = float(wind)
+windChill = (35.74 + 0.6215*f) - (35.75*(w**0.16)) + (0.4275*f*(w**0.16))
+print("the wind chill temperature is:", windChill)
